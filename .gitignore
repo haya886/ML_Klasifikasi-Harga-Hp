@@ -1,25 +1,16 @@
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.venv/
+*$py.class
 venv/
 env/
+.env
 
-# Jupyter
+# Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 
-# Model files (jangan push ke git karena besar)
+# Dataset & Model
 *.joblib
 *.pkl
+*.csv
 *.h5
-*.pt
-*.onnx
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
